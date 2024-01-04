@@ -16,6 +16,19 @@ cd python_base_func_study_pj
 ```
 
 ```
+python -m venv env
+```
+
+```
+source env/bin/activate
+```
+
+```
+pip install -r requirements.txt
+
+```
+
+```
 python -m basefuncproject
 ```
 
