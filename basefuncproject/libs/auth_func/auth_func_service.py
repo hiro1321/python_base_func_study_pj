@@ -36,7 +36,6 @@ def auth_pw():
     conf = configparser.ConfigParser()
     conf.read("./UserInfo.ini")
     salt = encode_to_bytes(conf["USER_INFO"]["salt"])
-    print(salt)
     hashed_pw = conf["USER_INFO"]["password"]
     input_hashed_pw = get_hased_password(input_pw, salt)
     print(input_hashed_pw)
