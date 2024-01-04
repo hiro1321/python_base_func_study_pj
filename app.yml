@@ -1,0 +1,14 @@
+# TODO:機能一覧
+func_list:
+  1:
+    func_name: csv->Excel変換(file入出力)
+    module_name: basefuncproject.libs.csv_func.csv_func_service
+    description: CSVファイルをカンマで分割し、エクセルに貼り付けて出力します。
+  2:
+    func_name: 郵便番号から住所を取得（WEB API）
+    module_name: basefuncproject.libs.address_func.address_func_service
+    description: 郵便番号を入力し、住所を表示します。
+  3:
+    func_name: パスワード認証(暗号化)
+    module_name: basefuncproject.libs.auth_func.auth_func_service
+    description: パスワードを暗号で管理し、認証します。
